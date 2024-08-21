@@ -1,4 +1,5 @@
 # InstaNinja
+![Screenshot 2024-08-19 204404](https://github.com/user-attachments/assets/9178937c-e93c-41ab-9b4a-025474cebc13)
 
 **InstaNinja** is a versatile Instagram automation tool that allows you to manage multiple accounts, send messages, interact with stories, follow/unfollow users, comment on posts, and scrape followers' data with ease.
 
