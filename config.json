@@ -1,8 +1,8 @@
 {
   "accounts": [
     {
-      "username": "",
-      "password": ""
+      "username": "your_username",
+      "password": "your_password"
     }
   ]
 }
