@@ -22,7 +22,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/InstaNinja.git
+   git clone https://github.com/ferid333/InstaNinja.git
    cd InstaNinja
    ```
 
