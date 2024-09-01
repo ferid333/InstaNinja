@@ -1,3 +1,4 @@
+# InstaNinja
 import tkinter as tk
 from tkinter import messagebox
 from instagrapi import Client
