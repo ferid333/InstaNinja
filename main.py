@@ -286,7 +286,7 @@ entry_post_url = tk.Entry(root, font=('Arial', 14), width=30)
 entry_comment = tk.Entry(root, font=('Arial', 14), width=30)
 entry_usernames = tk.Entry(root, font=('Arial', 14), width=30)
 
-# Initially hide the inputs not related to the selected action
+
 entry_message.grid(row=8, column=1, padx=10, pady=5)
 entry_usernames.grid(row=9, column=1, padx=10, pady=5)
 entry_story_user.grid_forget()
