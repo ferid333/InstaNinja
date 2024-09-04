@@ -35,7 +35,7 @@ def perform_action(action_func, action_label):
     username = account['username']
     password = account['password']
     
-    # Show current account
+
     label_current_account.config(text=f"Current Account: {username}")
     
     # Show processing overlay
