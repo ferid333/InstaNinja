@@ -58,7 +58,7 @@ def perform_action(action_func, action_label):
             action_var.set(None)
 
     threading.Thread(target=wrapper).start()
-
+# Actions
 def view_story():
     user = entry_story_user.get()
     def action():
