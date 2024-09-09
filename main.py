@@ -257,6 +257,7 @@ tk.Label(root, text="Action", font=('Arial', 14)).grid(row=0, column=0, padx=10,
 action_var = tk.StringVar()
 action_var.set(None)
 
+# Radio Buttons
 tk.Radiobutton(root, text="Send Message", variable=action_var, value="Send Message", font=('Arial', 12),
                command=show_message_inputs).grid(row=1, column=0, padx=10, pady=5)
 tk.Radiobutton(root, text="Like Story", variable=action_var, value="Like Story", font=('Arial', 12),
@@ -271,7 +272,7 @@ tk.Radiobutton(root, text="View Story", variable=action_var, value="View Story",
                command=show_view_story_inputs).grid(row=1, column=5, padx=10, pady=5)
 tk.Radiobutton(root, text="Scrape Followers", variable=action_var, value="Scrape Followers", font=('Arial', 12),
                command=show_scrape_followers_inputs).grid(row=1, column=6, padx=10, pady=5)
-
+# Action Labels
 tk.Label(root, text="Message", font=('Arial', 14)).grid(row=8, column=0, padx=10, pady=5)
 tk.Label(root, text="Story User", font=('Arial', 14)).grid(row=6, column=0, padx=10, pady=5)
 tk.Label(root, text="User", font=('Arial', 14)).grid(row=7, column=0, padx=10, pady=5)
@@ -297,6 +298,7 @@ entry_comment.grid_forget()
 label_current_account = tk.Label(root, text=f"Current Account: {accounts[0]['username']}", font=('Arial', 14))
 label_current_account.grid(row=10, column=0, columnspan=2, padx=10, pady=5)
 
+# Action Buttons
 tk.Button(root, text='Perform Action', command=lambda: action_var.get() == "Send Message" and send_message() or
                                                     action_var.get() == "Like Story" and like_story() or
                                                     action_var.get() == "Follow" and follow() or
