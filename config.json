@@ -2,7 +2,8 @@
   "accounts": [
     {
       "username": "your_instagram_username",
-      "password": "your_instagram_password"
+      "password": "your_instagram_password",
+      "proxy": "your_proxy_address (optional)"
     }
   ]
 }
