@@ -45,7 +45,7 @@
        {
          "username": "your_username",
          "password": "your_password",
-         "proxy": "your_proxy_address"
+         "proxy": "your_proxy_address" (optional)
        }
      ]
    }
