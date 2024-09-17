@@ -38,7 +38,7 @@
    ```
    Enter your Instagram username and password when prompted.
 
-   **Alternatively**, you can manually edit the `config.json` file to add or modify account credentials:
+   **Alternatively**, you can manually edit the `config.json` file to add or modify **account credentials**:
    ```json
    {
      "accounts": [
@@ -63,7 +63,7 @@
    ```
 
 2. **Select an action:**
-   Choose the action you want to perform (Send Message, Like Story, Follow, etc.).
+   Choose the **action** you want to perform (Send Message, Like Story, Follow, etc.).
 
 3. **Enter required information:**
    Fill in the relevant fields (e.g., usernames, messages, post URLs).
