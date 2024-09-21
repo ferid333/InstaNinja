@@ -6,7 +6,7 @@ import json
 import threading
 import time
 
-# Load configuration
+# Load config
 with open('config.json', 'r') as file:
     config = json.load(file)
 accounts = config['accounts']
@@ -18,7 +18,7 @@ def switch_account():
     global cl, current_account_index
     if current_account_index < len(accounts):
         account = accounts[current_account_index]
-        cl.logout()  # Ensure the client is logged out before switching
+        cl.logout()
         if 'proxy' in account and account['proxy']:
             cl.set_proxy(account['proxy'])
         current_account_index += 1
