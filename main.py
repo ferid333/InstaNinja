@@ -1,4 +1,7 @@
 # InstaNinja
+
+#InstaNinja is a versatile Instagram automation tool that allows you to manage multiple accounts, send messages, interact with stories, follow/unfollow users, comment on posts, and scrape followers' data with ease.
+
 import tkinter as tk
 from tkinter import messagebox
 from instagrapi import Client
