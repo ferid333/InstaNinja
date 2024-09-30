@@ -43,9 +43,9 @@
    {
      "accounts": [
        {
-         "username": "your_username",(required)
-         "password": "your_password",(required)
-         "proxy": "your_proxy_address" (optional)
+         "username": "your_username (required)",
+         "password": "your_password (required)",
+         "proxy": "your_proxy_address (optional)" 
        }
      ]
    }
